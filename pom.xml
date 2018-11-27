@@ -102,7 +102,7 @@
             <dependency>
                 <groupId>org.keycloak.bom</groupId>
                 <artifactId>keycloak-adapter-bom</artifactId>
-                <version>${version.keycloak}</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -115,7 +115,7 @@
             <dependency>
                 <groupId>org.keycloak.bom</groupId>
                 <artifactId>keycloak-spi-bom</artifactId>
-                <version>${version.keycloak}</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
